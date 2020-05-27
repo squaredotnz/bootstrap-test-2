@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: https://squaredotnz.github.io/bootstrap-test-2//sitemap.xml
+Sitemap: http://localhost:9001/sitemap.xml
