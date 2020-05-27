@@ -9,7 +9,7 @@ kramdown:
 permalink:      pretty
 
 # Server
-source:         "site"
+source:         "bootstrap-test-2/site"
 destination:    ./_gh_pages
 host:           "localhost"
 port:           9001
