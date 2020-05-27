@@ -1,4 +1,4 @@
-I"Z<h2 id="about">About</h2>
+I"�^<h2 id="about">About</h2>
 
 <p>Bootstrap “spinners” can be used to show the loading state in your projects. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, alignment, and sizing can be easily customized with our amazing utility classes.</p>
 
@@ -47,6 +47,9 @@
 <div class="spinner-border text-dark" role="status">
   <span class="sr-only">Loading...</span>
 </div>
+<div class="spinner-border text-bilendo" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
 </div>
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-primary"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
@@ -70,6 +73,9 @@
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-dark"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-bilendo"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
@@ -118,6 +124,9 @@
 <div class="spinner-grow text-dark" role="status">
   <span class="sr-only">Loading...</span>
 </div>
+<div class="spinner-grow text-bilendo" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
 </div>
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-primary"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
@@ -141,6 +150,9 @@
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-dark"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-bilendo"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Loading...<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 

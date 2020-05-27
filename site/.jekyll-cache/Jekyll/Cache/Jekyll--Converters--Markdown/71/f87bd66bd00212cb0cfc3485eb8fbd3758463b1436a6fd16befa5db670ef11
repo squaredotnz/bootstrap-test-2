@@ -1,4 +1,4 @@
-I"Å<h2 id="examples">Examples</h2>
+I"M<h2 id="examples">Examples</h2>
 
 <p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we‚Äôve designed our tables to be <strong>opt-in</strong>. Just add the base class <code class="highlighter-rouge">.table</code> to any <code class="highlighter-rouge">&lt;table&gt;</code>, then extend with custom styles or our various included modifier classes.</p>
 
@@ -963,6 +963,11 @@
         <td>Cell</td>
         <td>Cell</td>
       </tr>
+      <tr class="table-bilendo">
+        <th scope="row">Bilendo</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -978,6 +983,7 @@
 <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
 <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-light"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
 <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-dark"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-bilendo"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
 
 <span class="c">&lt;!-- On cells (`td` or `th`) --&gt;</span>
 <span class="nt">&lt;tr&gt;</span>
@@ -991,6 +997,7 @@
   <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
   <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-light"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
   <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-dark"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-bilendo"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
 <span class="nt">&lt;/tr&gt;</span></code></pre></figure>
 
 <p>Regular table background variants are not available with the dark table, however, you may use <a href="/docs/4.5/utilities/colors/">text or background utilities</a> to achieve similar styles.</p>
